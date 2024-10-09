@@ -5,18 +5,38 @@
 	<style>
 			h1 {
 				text-align:center;
-				color:orange;
+				color: #EFD6AC;
 				font-size:80px;
-			}
-			.carciofo {
-				margin:20px;
-				color:whi;
-			}
-			.immagine {
-				width:50px;
+				padding: 60px;
 			}
 			body {
-				background-color:#ABCDEF;
+				background-color: #04151F;
+				color: white;
+			}
+			header {
+				background-color: #183A37;
+				margin: -7px;
+			}
+			footer{
+				padding: 5px;
+				position:absolute;
+				bottom:0px;
+				text-align:center;
+			}
+			table th, td{
+				border: 4px solid;
+				border-radius: 8px;
+				border-color: #432534;
+				font-family: Verdana;
+				
+			}
+			th, td{
+				background-color: #c44900;
+			}
+			.mail{
+				color: white;
+				font-size: 130%;
+				align: center;
 			}
 	</style>
 	</head>
@@ -27,16 +47,29 @@
 		</header>
 		<main>
 			<!-- Blocco principale -->
-			<p class="immagine">
-				<img src="https___images.onefootball.com_icons_teams_164_16.png">	
-			</p>
-			<p class="carciofo">
-				Ciao, mi chiama Giuseppe e tifo Inter
-			</p>
+			<table align="center">
+				<thead>
+					<tr>
+						<th><h2>VITA</h2></th>
+						<th><h2>SPORT</h2></th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<p>Ciao mi chiamo Giuseppe Martino, ho 16 anni e frequento l'EINSTEIN-DE-LORENZO</p>
+						</td>
+						<td>
+							<img src="cbum.jpg" alt="Christian Bumstead" title="Christian Bumstead" style="width:500px; height:auto;" />
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<a class="mail" href="mailto:peppemartino383@gmail.com">peppemartino383@gmail.com</a>
+			
 		</main>
 		<footer>
 		<!-- Blocco di piè di pagina -->
-		<p>&copy; Giuseppe Martino</p>
+		<h2 style="color: white;">&copy; Giuseppe Martino</h2>
 		</footer>
 	</body>
 </html>
