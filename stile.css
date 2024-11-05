@@ -1,0 +1,56 @@
+h1 {
+	text-align:center;
+	color: #9DBFA3;
+	font-size:80px;
+	padding: 100px;
+}
+body {
+	background-color: #F4EBD0;
+	color: white;
+}
+header {
+	background-color: #1A1A1A;
+}
+footer{
+	padding: 5px;
+	bottom:0px;
+	text-align:center;
+	
+}
+
+.copyright{
+	text-align:center;
+	color: #333333;
+}
+
+.in, .fa, .gi{
+	height: 40px;
+	width: auto;
+	text-align: center;
+	margin: 4px;
+	
+}
+
+.biografia{
+	color: #333333;
+	font-size: 110%;
+	text-align: justify;
+}
+
+.social{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+}
+
+.io{
+	height: 500px;
+	width: auto;
+	
+}
+
+.BioTitolo{
+	color: #9DBFA3;
+	font-size: 50px;
+	text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
+}
