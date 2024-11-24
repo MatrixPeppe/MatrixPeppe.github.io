@@ -1,0 +1,25 @@
+header {
+  background: linear-gradient(to right, #373B44, #4286F4);
+}
+
+.in, .fa, .gi{
+	height: 45px;
+	width: auto;
+	text-align: center;
+}
+
+.carouselSlide{
+	width: 90%;
+	height: auto;
+	text-align: center;
+}
+header{
+	background-color: #1A1A1A;
+}
+
+#acerenza h2 {
+  color: #2c3e50;
+}
+#acerenza img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
